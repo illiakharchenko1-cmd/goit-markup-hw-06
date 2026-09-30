@@ -1,3 +1,14 @@
+:root {
+  --color-navy-blue: #2e2f42;
+  --color-slate: #434455;
+  --color-white: #fff;
+  --color-cloud: #f4f4fd;
+  --color-cornflower: #e7e9fc;
+  --color-iris: #4d5ae5;
+  --color-ocean: #404bbf;
+  --color-green: #31d0aa;
+}
+
 *,
 *::before,
 *::after {
@@ -43,16 +54,16 @@ img {
 }
 
 .container {
-  max-width: 1158px;
+  min-width: 320px;
   margin-left: auto;
   margin-right: auto;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .section {
-  padding-top: 120px;
-  padding-bottom: 120px;
+  padding-top: 96px;
+  padding-bottom: 96px;
 }
 
 .sr-only {
