@@ -41,13 +41,13 @@
     width: calc((100% - 24px) / 2);
   }
 
-  .features-title {
+  .feature-title {
     text-align: left;
   }
 }
 
 @media screen and (min-width: 1158px) {
-  .features-list {
+  .features {
     flex-wrap: nowrap;
   }
 
@@ -66,7 +66,7 @@
     border-radius: 4px;
   }
 
-  .features-title {
+  .feature-title {
     font-size: 20px;
     font-weight: 500;
     line-height: 1.2;

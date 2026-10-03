@@ -144,11 +144,11 @@
     justify-content: flex-start;
     column-gap: 24px;
     row-gap: 72px;
+  }
 
-    .text {
-      margin-left: 0;
-      margin-right: 0;
-    }
+  .text {
+    margin-left: 0;
+    margin-right: 0;
   }
 
   .footer-list,

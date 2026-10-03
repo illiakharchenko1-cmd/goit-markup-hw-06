@@ -47,6 +47,10 @@ a {
   text-decoration: none;
 }
 
+address {
+  font-style: normal;
+}
+
 img {
   display: block;
   max-width: 100%;
@@ -55,6 +59,7 @@ img {
 
 .container {
   min-width: 320px;
+  max-width: 480px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 16px;
@@ -64,6 +69,25 @@ img {
 .section {
   padding-top: 96px;
   padding-bottom: 96px;
+}
+
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .container {
+    max-width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
 }
 
 .sr-only {
